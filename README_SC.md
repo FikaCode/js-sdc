@@ -1,4 +1,4 @@
-# English | 简体中文
+# [English](https://github.com/FikaCode/js-sdc/blob/master/README.md 'English') | [简体中文](https://github.com/FikaCode/js-sdc/blob/master/README_SC.md '简体中文')
 ## javascript 页面通信 
 #### 一个简单javascript通信机制，使用localstorage来实现
 ## 要求  
