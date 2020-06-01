@@ -1,4 +1,4 @@
-# English | 简体中文
+# [English](https://github.com/FikaCode/js-sdc/blob/master/README.md 'English') | [简体中文](https://github.com/FikaCode/js-sdc/blob/master/README_SC.md '简体中文')
 ## javascript same domain communication  
 #### a simple html same domain communication by localStorage storage event  
 ## require  
