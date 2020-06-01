@@ -6,14 +6,14 @@
 var SDCFingerPrinter = "SDC_prefix_rdm_7591_";
 
 //store channle and hanle
-var handleMap = [];
+var SDCHandleMap = [];
 
 /**
  * init addEventListener 'storage' event
  */
 function init() {
     window.addEventListener("storage", function (e) {
-        for (kh of handleMap) {
+        for (kh of SDCHandleMap) {
             if (kh.key === e.key) {
                 kh.handle(e.newValue);
                 window.localStorage.setItem(kh.key, SDCFingerPrinter);
@@ -34,7 +34,7 @@ function onSDCMessage(channel, handle) {
         return;
     }
     window.localStorage.setItem(SDCFingerPrinter + channel, SDCFingerPrinter);
-    handleMap.push({ key: SDCFingerPrinter + channel, handle: handle });
+    SDCHandleMap.push({ key: SDCFingerPrinter + channel, handle: handle });
 }
 
 /**
